@@ -1,0 +1,52 @@
+div.content{
+    padding: 10px;
+    width: 1000px;
+    height: 270px;
+    border: 1px solid gray;
+    margin: 20px auto 0;
+}
+
+div.content h1{
+    text-align: center;
+}
+
+div.content p{
+    text-align: center;
+}
+
+div.content form{
+    font-size: 18px;
+}
+
+
+div.content form ul{
+    padding-top: 10px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+div.content form ul li{
+    margin: auto;
+}
+
+div.content form button{
+    background-color: rgb(22, 130, 67);
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+}
+
+div.content form button:hover{
+    background-color: rgb(40, 94, 40);
+}
+
+div.content form input{
+    font-size: 18px;
+}
+
+div.content form button:disabled{
+    background-color: rgb(132, 167, 132);
+}

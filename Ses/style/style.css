@@ -1,0 +1,37 @@
+.container{
+    width: 300px;
+    margin: auto;
+}
+
+table{
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 10px 5px;
+}
+
+table tr td button[type="submit"]{
+    padding: 5px 20px;
+    background-color: #d1eeee;
+    border-width: 0;
+    transition: .3s;
+}
+
+table tr td button[type="submit"]:hover{
+    background-color: #c4ccc6;
+    box-shadow: inset 1px 1px black, inset -1px -1px black;
+}
+
+
+label{
+    font-size: 20px;
+}
+
+td{
+    padding: 5px 0;
+}
+
+
+
